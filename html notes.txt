@@ -1,0 +1,245 @@
+html hyper text markup language
+opening tag <p> closing tag </p> 
+p stand for paragraph 
+
+add comments in html syntax is <!--text-->
+control slash se hum sara code ek sath comment out kr sakty hy
+
+html is not case sensititive 
+isme chota a or bara A ek hi hy koi farq nhi parta chota a likho ya A bara a
+
+browser pr ja kr hum inspect kr ky apna html code edit kr sakty hy jis se sirf wahi 
+browser pr change ho ga
+
+html attributes
+attributes are used to add more information to the tags
+
+heading tag
+h1 most important
+h2
+h3
+h4
+h5
+h6 least important
+hamy is headings ko size kyliye nhi importance ky hissab se use krna chahiye
+
+anchor tag
+used to add links to your webpage
+<ahref="https..........com">google <a/>
+
+<br/> break tag line space krna ky liye is tag ka opening closing yehi hy
+
+image tag 
+image tag is used add images to your web page
+
+image tag <img src="link"alt="link ka revelent naam agr pic download na ho tu user ko pta chal jaye pic me kia hy"/>
+agr ap pic chiti ya bari krna chahty hy tu hight or widht set kr sakty hy lekin ye dehan me rakhy ky ek waqt me ek hi chez kry warna hight or 
+width se pic ka structure bhi kharab ho sakta hy is liye ek waqt me ek hi kry hight ya width  ye krny ky liye 
+
+<img src ="link"alt="naam"hight="100"widht=".."/>
+
+bold , italic underline tag
+its used to highlight text to your web page
+bold tag <b> </b>
+italic tag <i> </b>
+underline TAG <u> <u/>
+
+big tag small tag 
+<big> </big>
+<small> </samll>
+big tag bary text ky liye small tag choty text ky liye
+
+horizontal ruler tag <hr/>
+ye tag line ko saprate kr deta hy jb hamy text ky beach me ek line chaye tu hr tag ka use kry gy
+
+sub script or supersript tag 
+<sub> </sub>  
+<sup> </sup>
+ye tag use hoty hy jese chemistry my ham formuly laikhty hy us tarah ka content linkhny ky liye jese h20 2 isme nechy likha hota hy nechy likhny ky 
+liye subuse hoga  upar likhny ky likye sup use hota jis trah math me power upar di jati hy istarah ky text me super use hota
+
+pre tag 
+html hamary text me diye gap ko space ki line space ko count nhi krta hy lekin agr hum chahty hy ky html kry count tu hum us text ko pre tag me
+likhy gy
+<pre> </pre>
+
+tags for layout ye hamari web page ki seo pr kaam or asar hota hy isme hoty hy semantic tag nonsemantic tag 
+semantic tag wo hoty hy jise tag ka matlab samjh aa jaye nonsemantic tag ko dekh kr samajh aa jaye
+
+semantic tag
+<header>
+<footer>
+<main> 
+isse code ki readeabllity barti hy or sahi waqt me sahi tag use krna chahiye taky user experience ho
+
+main tag me hum section tag use krty hy <section> </section> is tarah section tag me hum main tag me hum article tag bhi use krty <artical></artical>
+is tag me hum kuch bhi additional ya artical ya story likh sakty hy imortant text ek hota hy <aside></aside> tag ye tag hamary web page ky irrevelnet 
+adds ko is tag me likhty taky google dekh saky ky ye part hamary content ka hissa nhi hy
+
+revisiting anchor tag 
+<a href "https/www.google.com" target = "-main">google</a> is tag se link alag tab me khuly gi
+
+<a href = "https://www.google.com/"target="-main">Google <br/> <img src ="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x
+92dp.png"alt = google> </a>
+
+is tarah hum clickable image bana sakty image ko click kary gy tu web bape khul jaye ga 
+
+impotant tag ye buhat bar use hota hy html me 
+nonsemantic tag
+
+div tag <div> </div>
+ek sath buhat sary elements ko arrange krna ho tu div use krty hy ye ek box ki tarah hy jo block widht ko cover kr leta hy matlab sary area ko pura 
+widht leta hy
+
+span tag ye bhi div ki tarah ek box hy lekin ye inline widht ko cover krta hy matlab ye size ky hisab se hi jaga lyta hy jitna text hoga utni hi
+ block element aysa nhi krty
+
+list banani ho tu unorder list ky liye <ul></ul> order list ky liye <ol></ol> in tag ky andar <li></li> list tag lagy ga ol me 123 ki surat me chezy list hongi ul 
+me . dot ki surat me list hongi
+
+tables in html 
+
+<tr></tr> ye table row tag 
+<td></td> ye table data tag 
+<th></th> ye table header tag
+<table>
+</table> table tag ky andar hongy baki sary tag table row tag tr tag ky andar th tag table header th
+
+caption tag se hum <caption></caption> table ko caption de sakty hy TABLE me table head or table body tag hoty hy jo table ky head or body ko wrap
+up kr lete hy <thead></thead> <tbody> </tbody> isse visible code me koi canges nhi aye gi head or body ky lekin seo pr parta hy 
+
+callspan= ye tag nhi hy ye likh kr hum 
+
+foam important tag 
+ye tag use hota webpage pr user se data lene ky liye email wagera lene ky liye jo foam hota wo is tag me banta hy <foam></foam>
+login / sign up /help request/ contact me / jese foam <foam action=""> action dalna hota ky data kha jaye ga kia action perform 
+hona chahiye
+
+form tag ky andar hota hy input tag <input type="text" placeholder ="type something here">
+is input tag me user apna kuch likha ga ye ek searh bar jese ban jaye ga type something waly me hum name passward email kuch bhi likh sakty jo hamy foam me 
+user se chaiye
+
+radio botton banany ky liye <input type="radio" value ="class 11" name ="class">class11
+                            <input type="radio"  value ="class 12" name = "" class> class12 
+label tag <label for= 101> </label> radio ko is label ky andar likhy gy tu label radio ky text pr bhi click kry ga tu user asani se text 
+pr bhi click kr ky botton press kr sakta
+
+checkboxes options banany ho tu ek se ziada chose krny ho tu
+
+agr apny webpage pr feedback area ya koi text area banana ho tu form ky tag me <textarea ="feedback" id="102"placeholder=
+"give your valueble feedback here" > feedback</textarea> agr jaga parhani ho tu row="5"
+
+form me dropdown banany ky liye dropdown kehty hy aksar forms me city select krny ky liye ati hy ek dot usy click kary tu buhat sari 
+cities ajati hy issy bnany ky liye hum select tag ka use kry gy <select></select>
+select ky andar option tag se options dengy <option></option>
+
+<select name="cities"
+<option value="karachi">karachi</option>
+<option value="lahore">lahore</option>
+<option value="islamabad">islamabad</option>
+ap ek sabmit booton bhi bana sakty hy 
+
+<input type="submit" value="submit">
+
+kisi orwebsite ko apni website pr display krwana ho ya koi utube video wbsite pr chalana ho link krna ho dosri web ko apni web se 
+tu hum iframe tag ka use karty hy <iframe></frame>
+ utube ki kisi bhi vedio ky share botton ko click krny se embed ka option ata uy click kry tu wo hamy iframe code deta hy usy copy kr ky 
+ky paste kr ly iframe tag me
+
+video tag se hum apni wepsite pr vedios add kr sakty hy <video widht ="" hight="" src="link" control> isse video lg jaye gi video ko play
+krny ky liye kuch attributes use hoty hy control loop control se video control hogi or loop se bar bar khud hi replay hogi
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
